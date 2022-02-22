@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Animation Movement</title>
+
+        <style>
+            #rect {
+                position: relative;
+                height: 40px;
+                width: 70%;
+                background: black;
+                margin: 50px auto;
+                border-radius: 5px;
+
+                animation-name: rainbow;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes rainbow {
+                0% {
+                    background-color: blue;
+                    top: 0px;
+                    left: 0px;
+                }
+                50% {
+                    background-color: green;
+                    top: 50px;
+                    left: 25px;
+                }
+                100% {
+                    background-color: yellow;
+                    top: 0px;
+                    left: -25px;
+                }
+            }
+
+            /* --------------------- */
+            #ball {
+                position: relative;
+                width: 70px;
+                height: 70px;
+                /* margin: 50px auto; */
+                /* position: fixed; */
+                left: 20%;
+                border-radius: 50%;
+                background: linear-gradient(35deg, #ccffff, #ffcccc);
+                animation-name: fade;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes fade {
+                50% {
+                    left: 60%;
+                    opacity: 0.1;
+                }
+            }
+
+            /* ------------------------------------- */
+            #ball-infinte {
+                position: relative;
+                width: 100px;
+                height: 100px;
+                margin: 50px auto;
+                border-radius: 50%;
+                background: linear-gradient(35deg, #ccffff, #ffcccc);
+                animation-name: bounce;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes bounce {
+                0% {
+                    top: 0px;
+                }
+                50% {
+                    top: 249px;
+                    width: 130px;
+                    height: 70px;
+                }
+                100% {
+                    top: 0px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="rect"></div>
+        <div id="ball"></div>
+        <div id="ball-infinte"></div>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+[x] User Story #1:
+    My tribute page should have an element with a corresponding id="main", which contains all other elements.
+
+    - element with id="main" attribute
+
+[x] User Story #2:
+    I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
+
+    - element width id="title"
+    - This element will hold title of the person
+
+[x] User Story #3:
+    I should see either a figure or a div element with a corresponding id="img-div".
+
+    - Add a image which describes person.
+
+[x] User Story #4:
+    Within the img-div element, I should see an img element with a corresponding id="image".
+
+    - The above element should have element
+
+[x] User Story #5:
+    Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
+
+    - Add image caption, which describes the image in textual format
+
+[x] User Story #6:
+    I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
+
+    - element, should contains details of tribute information.
+
+[x] User Story #7:
+    I should see an a element with a corresponding id="tribute-link",
+    which links to an outside site that contains additional information about the subject of the tribute page.
+    
+    HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
+
+    - Add an externa link about tribute page
+
+[x] User Story #8:
+    The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+
+    - Images should be responsive
+
+[x] User Story #9:
+    The img element should be centered within its parent element.
+
+    - Image should be centrally align in parent element
+
+You can build your project by using this CodePen template and clicking Save to create your own pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js.
+
+Once you're done, submit the URL to your working project with all its tests passing.
