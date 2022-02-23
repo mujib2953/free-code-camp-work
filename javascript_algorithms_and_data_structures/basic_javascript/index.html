@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Basic JavaScript</title>
+
+        <style>
+            :root {
+                font-size: 1.125em;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            html,
+            body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 2em;
+            }
+
+            table {
+                width: 80%;
+                text-align: center;
+            }
+
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+        <script>
+            window.pilotObj = {};
+        </script>
+    </head>
+    <body>
+        <blockquote>
+            Pls open devtools and browser's console before executing any script
+            to see the output.
+        </blockquote>
+
+        <table>
+            <thead>
+                <th>Sr.</th>
+                <th>Concept</th>
+                <th>Action</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>String Immutable</td>
+                    <td>
+                        <button class="execute-btn" data-id="one">
+                            Execute
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <script src="./sting_immutable.js"></script>
+        <script src="./brain.js"></script>
+    </body>
+</html>
